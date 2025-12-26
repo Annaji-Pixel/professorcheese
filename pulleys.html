@@ -4,8 +4,8 @@
 
 <head>
 
-    <!--404 Title--> 
-    <title>Professor Cheese - 404: Page Not Available</title>
+    <!--Module name--> 
+    <title>Professor Cheese - Pulleys</title>
 
 
     <!--Encoding characters-->
@@ -31,23 +31,136 @@
 
 <body>
 
+<header>
+    <a href="index.html" id="logolink"><img src="professorCheeseLogo.png" id="logo" alt="Professor Cheese logo"></a>
+    <h1 id="websiteTitle">Professor Cheese</h1>
+    <a href="fundamentals.html" class="linkbutton linkbutton--right">Go Back to Fundamentals</a>
+</header>
 
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; text-align: center;">
+
+<div class="page-layout">
+
+    <nav class="sidebar">
+        <ul>
+            <li>
+                <a href="engineeringdesignprocess.html">Module 1: Engineering Design Process</a>
+            </li>
+
+            <li>
+                <a href="studio2tutorial.html">Module 2: Using Studio 2.0 for Planning</a>
+            </li>
+
+            <li>
+                <a href="legogeometry.html">Module 3: SPIKE Prime and Technic Tips</a>
+            </li>
+
+            <li>
+                <a href="gears.html">Module 4: Gears</a>
+            </li>
+
+            <li>
+                <a href="gearratios.html">Module 5: Gear Ratios</a>
+            </li>
+
+            <li>
+                <a href="moregears.html">Module 6: More Gear Types</a>
+            </li>
+
+            <li>
+                <a href="pulleys.html" class="current">Module 7: Pulleys</a>
+            </li>
+
+            <li>
+                <a href="framesandbracing.html">Module 8: Frames and Bracing</a>
+            </li>
+
+            <li>
+                <a href="robotfundamentals.html">Module 9: Building a Robot</a>
+            </li>
+
+            <li>
+                <a href="toolsandattachments.html">Module 10: Tools and Attachments</a>
+            </li>
+        </ul>
+
+    </nav>
 <main class="container">
 
-    <h1>404: Page Not Available</h1>
+        <div class="glass">
+            <h1>Module 7: Pulleys (When Not To Use Them)</h1>
 
-    <p class="purple">This page doesn't exist. Check back for updates!</p>
+            <p>Pulleys are an alternative to using gears. They are great for some things, but in FLL, they are not used very often. In this module, we'll explore what they are, when to use them (rare), when not to, and why.</p>
 
-    <img src="professorCheeseLogoDizzy.png" class="reacting" style="align-self: center;">
+        </div>
 
-    <a href="fundamentals.html" class="linkbutton linkbutton--newline" style="align-self: center;">Go Back To Fundamentals Page</a>
+        <section>
+            <h2>What are Pulleys?</h2>
+
+            <p>Pulleys are wheel-and-belt systems used to transmit rotational motion from one shaft to another. Terms such as driver pulley and follower pulley can still apply here.</p>
+
+            <p>Below is an example of a pulley. However, Studio has limits. In reality, both the wheels you see below must have an elastic around them. It's the part that allows the pulleys to transmit rotational motion with each other.</p>
+
+            <div class="glass">
+                <img src="module7image1.png" class="rounded-image">
+                <a href="Module7-Model1.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <p>Studio can't represent parts that can easily be modified, like wires connected to motors or elastics that support pulleys. It's encouraged that you physically build the model above and attach an elastic between the two wheels to understand how pulleys work. Torque and speed can be modified by pulleys as well.</p>
+        </section>
+
+        <section>
+            <h2>Do We Use Them in FLL?</h2>
+
+            <p>Uncommon. Pulleys are rarely used by any teams in FLL because of certain limitations when it comes to them. Gears are almost always better than pulleys in FLL. FLL competitions reward rigid systems. Gears <strong>are</strong> rigid. That doesn't mean pulleys are useless.</p>
+
+            <ul class="normalul">
+                <li>
+                    Elastics/belts can tear, lose their flexibility, and wear out over time. This is not a huge concern when it comes to gears.
+                </li>
+
+                <li>
+                    They don't provide consistent results. Unlike gears which lock with each other, pulleys have elastics that can simply slip over their wheels, which poses uncertainty. If you want torque, gears provide more of it, and with much more certainty.
+                </li>
+
+                <li>
+                    Their special features (that make them distinct from gears) are rarely needed.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2 Important Pulley Features</h2>
+
+            <p>Pulleys have 2 important features that gears don't give.</p>
+
+            <ul class="normalul">
+                <li>
+                    Pulleys are parts-efficient. 
+                </li>
+
+                <li>
+                    2 wheels in a pulley can move in the same direction, gears don't have this.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <div class="glass">
+                <img src="module7image2.png" class="rounded-image">
+                <a href="Module7-Model2.io" class="linkbutton linkbutton--newline" download>Download Studio 2.0 File</a>
+            </div>
+
+            <p>This is an example of what parts-efficiency looks like, when the transmission of rotational motion goes greater distances (this example was 6 studs, and pulleys saved 1 extra moving part already).</p>
+        </section>
 
 
 
 
 
 
+
+
+    <a href="framesandbracing.html" class="linkbutton">Done? Go to Module 8</a>
 </main>
 </div>
 
